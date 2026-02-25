@@ -1,0 +1,7 @@
+Tambahkan ke android/app/src/main/AndroidManifest.xml (di dalam <manifest>):
+
+<uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:maxSdkVersion="32"/>
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="29"/>
+
+Dan pastikan aplikasi punya <application> seperti biasa.
